@@ -16,8 +16,8 @@ var commentRoutes    = require("./routes/comments"),
 var seedDB = require("./seeds");
 
 
-//mongoose.connect("mongodb://localhost/yelp_camp");
-mongoose.connect("mongodb://temidayo:123456789@ds111103.mlab.com:11103/yelpcamp");
+mongoose.connect("mongodb://localhost/yelp_camp");
+//mongoose.connect("mongodb://temidayo:123456789@ds111103.mlab.com:11103/yelpcamp");
 
 
 app.use(bodyParser.urlencoded({extended: true}));
